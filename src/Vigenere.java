@@ -35,6 +35,7 @@ public class Vigenere
 		System.out.println("Key: " + key);
 		System.out.print("Ciphertext: ");
 		cipher(plaintext, key);
+		in.close();
 	}
 	
 	/* Runs the Vigenere cipher using plaintext and a key */
